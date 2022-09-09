@@ -6,14 +6,7 @@ const AXIOS = require("axios");
 const CHEERIO = require("cheerio");
 const EXPRESS = require("express");
 const FS = require("fs");
-/*
-$('.vrt-teaser-wrapper ', $html).each(function() {
-			const link = "https://www.vrt.be" + $(this).find("a").attr("href");
-			articles.push({
-				link
-			});
-		});
-*/
+
 const titlesList = [];
 const linksList = [];
 
